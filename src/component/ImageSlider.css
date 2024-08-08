@@ -1,0 +1,27 @@
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Adjust max-width as needed */
+    height: auto; /* Height will adjust based on the aspect ratio */
+    overflow: hidden;
+    margin: 0 auto; /* Center the slider horizontally */
+  }
+  
+  .slide {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+  }
+  
+  @media (min-width: 600px) {
+    .slider {
+      max-width: 100%; /* Adjust max-width for larger screens */
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .slider {
+      max-width: 800px; /* Adjust max-width for very large screens */
+    }
+  }
+  

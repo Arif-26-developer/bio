@@ -1,0 +1,74 @@
+.about {
+    display: flex;
+    flex-wrap: wrap; /* Ensures the layout adjusts on smaller screens */
+}
+
+.left {
+    float: left;
+    width: 50%;
+    margin-left: 4rem;
+    margin-top: 0; /* Remove any margin-top */
+}
+
+.left h1 {
+    margin-left: 30px;
+    color: #00BF62;
+}
+
+span {
+    position: relative;
+    color: #222222;
+    font-size: 16px;
+    line-height: 1.8em;
+    margin-bottom: 15px;
+}
+
+.right {
+    float: right;
+    width: 40%;
+}
+
+.image {
+    position: relative;
+    width: 80%;
+    display: block;
+    margin-left: 20px;
+    margin-top: 0; /* Remove any margin-top */
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 30px;
+    color: #ffffff;
+    overflow: hidden;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    padding: 14px 13px;
+    width: 149px;
+    text-transform: uppercase;
+    background: #00BF62;
+}
+
+a {
+    color: #fff;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .left, .right {
+        width: 100%;
+        margin-left: 0; /* Remove left margin */
+        margin-right: 0; /* Remove right margin */
+    }
+
+    .left h1, .image {
+        margin-left: 0; /* Remove left margin for h1 and image */
+        margin-top: 0; /* Ensure no top margin */
+    }
+
+    .about {
+        flex-direction: column; /* Stack items vertically on small screens */
+    }
+}

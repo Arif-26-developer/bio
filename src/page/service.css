@@ -1,0 +1,131 @@
+/* Global styles for the service page */
+.service {
+  padding: 20px 0;
+}
+
+.pestcontrol,
+.cleaning {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  width: 100%; /* Full width of the viewport */
+  margin: 0 auto;
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+  margin-bottom: 20px;
+}
+
+.pestcontrol {
+  margin-top: 20px;
+}
+
+.cleaning {
+  margin-top: 20px;
+}
+
+/* Typography for service titles */
+.service h6 {
+  color: #00BF62;
+  text-align: center;
+  margin-bottom: 16px;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 3rem; /* Updated base font size */
+  box-shadow: 0px 4px 12px rgba(0, 191, 98, 0.5);
+  background-color: rgba(0, 191, 98, 0.1);
+  animation: slideInOut 3s ease-in-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .service {
+    padding: 10px 0;
+  }
+
+  .service h6 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .pestcontrol h1,
+  .cleaning h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Keyframes for animations */
+@keyframes slideInOut {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+/* Shaking effect on hover for images */
+.imagehover {
+  animation: shake 6.8s ease-in-out infinite;
+}
+
+/* Styling for card media */
+.cardMedia {
+  border-radius: 50%;
+  transition: transform 0.9s ease;
+}

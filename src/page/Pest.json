@@ -1,0 +1,52 @@
+  [
+    {
+        "id": 1,
+        "image":"/pestimage/cockroage.jpeg",
+        "title":"Cockroach control",
+        "description":"Cockroaches are considered to be dangerous as an allergen source and asthma trigger. Cockroach control treatment includes applying herbal gels and odorless chemicals across the hiding places of cockroaches and infestation areas"
+    },
+    {
+        "id":2,
+        "image":"/pestimage/termite.jpeg",
+        "title":"Termites Control",
+        "description":"They are known as silent destroyers for their ability to chew wood and flooring. The latest methodology of Drill-Fill-Seal is applied. It creates a barrier between termites and the wall and prevents Termite infestation"
+    },
+    {
+        "id":3,
+        "image":"/pestimage/bugs.jpg",
+        "title":"Bed Bugs Control",
+        "description":"Bed bugs are insects from the genus Cimex that feed on human blood, usually at night. Treatment includes Inspection by professional technicians of hiding spots of bed bugs and injecting the area with advanced chemicals."
+    },
+    {
+        "id":4,
+        "image":"/pestimage/mosquito.jpg",
+        "title":"Mosquitoes Control",
+        "description":"Mosquitoes can spread several diseases such as Zika, West Nile, Chikungunya, Dengue, and Malaria. Mosquito treatment is the combination of treatments to break mosquitoes’ life cycle; Control of larvae by treating breeding sites, and destroying hiding places of adult mosquitoes."
+    },
+    {
+        "id":5,
+        "image":"/pestimage/rats.jpg",
+        "title":"Rodent Control",
+        "description":"Rats and mice spread over 35 diseases worldwide. They can damage buildings, contaminate food. The rodent control strategy includes a Combination of baiting proofing baits and cakes for rats containing Bromodioline which causes rats to die outside your premises."
+    },
+    {
+        "id":6,
+        "image":"/pestimage/ant.jpeg",
+        "title":"Ants Control",
+        "description":"Sometimes they become too much annoying due to their huge population and painful bites. Ants control can be executed by applying the special gel as well as spraying the chemical across the insects’ infected areas."
+    },
+    {
+        "id":7,
+        "image":"/pestimage/spider.jpeg",
+        "title":"Spider Control",
+        "description":"Spiders are air-breathing arthropods that have chelicerae with fangs generally able to inject venom. Spider control is executed by using sprays across the insect and infected areas. It works as a repellant for spiders."
+    },
+    {
+        "id":8,
+        "image":"/pestimage/fly.jpeg",
+        "title":"Fly Control",
+        "description":"The common housefly can transmit the pathogens that cause shigellosis, typhoid fever, E. coli, and cholera. A house flies treatment plan based on the circumstances of the infestation, which may include the use of fly bait applications or traps."
+    }
+
+]
+

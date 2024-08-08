@@ -1,0 +1,124 @@
+/* Basic styles for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px; /* Default padding */
+  /* color: #00BF62; */
+  border: 1px solid #00bf62;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo styles */
+.logo {
+  margin-left: 40px;
+}
+
+/* Navbar links styles */
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 20px; /* Increased margin */
+}
+
+.nav-links a,
+.nav-links span {
+  color: #00bf62;
+  text-decoration: none;
+  font-size: 2em; /* Increased font size */
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links span:hover {
+  color: #2bcb03;
+  cursor: pointer;
+}
+
+/* Menu toggle for mobile */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  z-index: 2000;
+}
+
+.menu-toggle .bar {
+  background-color: #00bf62;
+  height: 4px; /* Increased height */
+  width: 30px; /* Increased width */
+  margin: 4px 0; /* Increased margin */
+  transition: 0.3s;
+}
+
+/* Desktop view (default) */
+@media (min-width: 1024px) {
+  .navbar {
+    padding: 20px 40px; /* Increased padding for desktop */
+  }
+
+  .nav-links {
+    display: flex;
+    margin: 0;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+}
+
+/* Tablet view */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navbar {
+    padding: 20px 30px; /* Increased padding */
+  }
+
+  .nav-links {
+    display: flex;
+    margin: 0;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 767px) {
+  .navbar {
+    padding: 10px 20px; /* Default padding for mobile */
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fffefe;
+    position: absolute;
+    top: 60px; /* Adjust based on increased navbar height */
+    left: 0;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px #070000;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 15px 0; /* Increased margin */
+    text-align: center;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+}

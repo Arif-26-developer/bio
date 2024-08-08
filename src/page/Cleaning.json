@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "image": "/cleaning/home deep.jpeg",
+        "title": "HOME DEEP  Cleaning ",
+        "description":[
+            "Window grill,window  dry dusting of panel  ,window glass wet wash .",
+" Cleaning of cabinets and wardrobes externally. ( customer should empty in advance then it will be interally)", 
+     "Dry dusting and cobweb Of wall (Not wet washing).",
+"Moping and cleaning of floor without moving heavy furniture.", " Cleaning of entire kitchen ( kitchen should be empty in advance)",
+"Dry wiping of light fixtures."
+        ]
+    },
+
+    {
+        "id": 2,
+        "image": "/cleaning/kitchen.jpeg",
+        "title": "Kitchen Deep Cleaning",
+        "description": [
+            " Dry dusting and cobweb Of wall (Not wet washing).",
+            " Moping and cleaning of floor without moving heavy furniture.",
+            "Windowgrill, window dry dusting of panel , window glass wet wash .",
+            "Cleaning of entire kitchen ( kitchen should be empty in advance) ",
+            " Dry wiping of light fixtures."
+        ]
+    },
+    {
+        "id": 3,
+        "image": "/cleaning/bathroom.jpeg",
+        "title": "Bathroom Cleaning",
+        "description": [
+            "Cleaning of bathroom tiles, shower, washbasin, taps, mirror, cabinet and Disinfection of bathroom with hand scrubbing.",
+            " Moping and cleaning of the floor, washbasin, exhaust fan, window & WC."
+        ]
+    },
+    {
+        "id": 4,
+        "image": "/cleaning/sofa.jpeg",
+        "title": "Sofa Cleaning",
+        "description":[
+            "Dry dust with vaccum for dust removal", "  Foam base chemical shampoo for wet wash.",
+" Dry vaccum for drying .",
+"100% no warrantee on stain."
+        ]
+    },
+    {
+        "id": 5,
+        "image": "/cleaning/chair.jpeg",
+        "title": "Chair Cleaning",
+        "description":[
+            "Dry dust with vaccum for dust removal", "  Foam base chemical shampoo for wet wash.",
+" Dry vaccum for drying .",
+"100% no warrantee on stain."
+        ]
+    },
+    {
+        "id": 6,
+        "image": "/cleaning/carpet.jpeg",
+        "title": "Carpet Cleaning",
+        "description": [
+            "Dry dust with vaccum for dust removal", "  Foam base chemical shampoo for wet wash.",
+" Dry vaccum for drying .",
+"100% no warrantee on stain."
+        ]
+    }
+
+]
